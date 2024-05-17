@@ -1,0 +1,42 @@
+.card {
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  overflow: hidden;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-footer {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.earnings-body {
+  background-color: #ffcc80;
+}
+.views-body {
+  background-color: #a5d6a7;
+}
+.tasks-body {
+  background-color: #ef9a9a;
+}
+.downloads-body {
+  background-color: #90caf9;
+}
+.earnings-footer {
+  background-color: #ffa726;
+}
+.views-footer {
+  background-color: #66bb6a;
+}
+.tasks-footer {
+  background-color: #ef5350;
+}
+.downloads-footer {
+  background-color: #42a5f5;
+}
