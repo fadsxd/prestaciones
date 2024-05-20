@@ -87,7 +87,9 @@ input[type=number] { -moz-appearance:textfield; }
 
 * {
   // font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  //TODO: TIPO DE LETRA MODIFICADO
+  //font-family: 'Open Sans', sans-serif;
+  
   // font-family: 'Lato', sans-serif;
   // font-family: 'Gotham Light', sans-serif;
 }
@@ -608,6 +610,9 @@ option {
   border-radius: 1rem;
 //  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Press+Start+2P&display=swap');
 
 
 // *********************************************************************************** Botones y Modal de Heidy*//

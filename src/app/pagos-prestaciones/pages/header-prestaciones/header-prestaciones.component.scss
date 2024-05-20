@@ -1,0 +1,84 @@
+
+h5{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+h3{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+}
+.card {
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+  }
+  .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+  }
+  .card-footer {
+    font-family: "Poetsen One", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    padding: 10px;
+  }
+  .earnings-body {
+    background-color: #ffcc80;
+  }
+  .earnings-footer {
+    background-color: #ffa726;
+  }
+  .views-body {
+    background-color: #a5d6a7;
+  }
+  .views-footer {
+    background-color: #66bb6a;
+  }
+  .tasks-body {
+    background-color: #ef9a9a;
+  }
+  .tasks-footer {
+    background-color: #ef5350;
+  }
+  .downloads-body {
+    background-color: #90caf9;
+  }
+  .downloads-footer {
+    background-color: #42a5f5;
+  }
+  .new-card-body {
+    background-color: #b39ddb; /* Puedes ajustar el color según tus preferencias */
+  }
+  
+  .new-card-footer {
+    background-color: #7e57c2; /* Puedes ajustar el color según tus preferencias */
+  }
+  
+
+
+  //
+  .centrado{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  
+  .card-button {
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; /* Agrega la transición de transformación */
+  }
+  .card-button:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño cuando pasa el hover */
+  }
+  

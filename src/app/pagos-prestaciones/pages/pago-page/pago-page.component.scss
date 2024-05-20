@@ -1,42 +1,46 @@
-.card {
-  border: none;
-  border-radius: 8px;
-  margin: 10px;
-  overflow: hidden;
+.shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 10px; /* Bordes redondeados */
 }
-.card-body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+
+h5{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
-.card-footer {
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
+h3{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 35px;
+}
+
+h1{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.date-input {
+  font-size: 16px;
   padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #7fa1c4; /* Borde azul */
+  background-color: #f8f9fa; /* Fondo claro */
+  color: #000000; /* Color del texto */
+  transition: all 0.3s ease-in-out; /* Transición para efectos de hover y focus */
+  font-weight: 700;
 }
-.earnings-body {
-  background-color: #ffcc80;
+
+.date-input:focus {
+  border-color: #0056b3; /* Borde más oscuro al enfocar */
+  box-shadow: 0 0 5px rgba(0, 91, 187, 0.5); /* Sombra al enfocar */
+  outline: none;
 }
-.views-body {
-  background-color: #a5d6a7;
+
+.date-input:hover {
+  background-color: #e2e6ea; /* Fondo más claro al pasar el cursor */
+  cursor: pointer;
 }
-.tasks-body {
-  background-color: #ef9a9a;
-}
-.downloads-body {
-  background-color: #90caf9;
-}
-.earnings-footer {
-  background-color: #ffa726;
-}
-.views-footer {
-  background-color: #66bb6a;
-}
-.tasks-footer {
-  background-color: #ef5350;
-}
-.downloads-footer {
-  background-color: #42a5f5;
-}
+
